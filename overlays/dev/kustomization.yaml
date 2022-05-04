@@ -10,7 +10,7 @@ resources:
 - ./pipeline
 
 images:
-- digest: sha256:04b3f6e361f3ebd3b08b6f2bc5c7d13e8ab8f3641db8ffd1208b60cbb6719f26
+- digest: sha256:1605ce92bd275be4fba22ca8962ffb025d9c337e801263b2ec4b6a6756e361d3
   name: quarkus-demo
   newName: quay.io/ssm/quarkus-demo
 commonAnnotations:
