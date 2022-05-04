@@ -5,7 +5,8 @@ resources:
   - service.yaml
   - deployment.yaml
 
-namespace: quarkus-demo
+# Namespace will set in ArgoCD. This will allow just copying this promotion
+# namespace: quarkus-demo
 
 commonLabels:
   app: quarkus-demo
