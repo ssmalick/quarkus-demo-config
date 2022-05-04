@@ -7,9 +7,9 @@ resources:
 - ../../base
 
 images:
-- digest: sha256:24a0c4b4a4c0eb97a1aabb8e29f18e917d05abfe1b7a7c07857230879ce7d3d4
-  name: quarkus-demo
+- name: quarkus-demo
   newName: image-registry.openshift-image-registry.svc:5000/dev-quarkus-demo/quarkus-demo
+  newTag: e9c469a
 commonAnnotations:
-  git-commit.sha: sha25611
+  git-commit.sha: e9c469a
   sha: sha25611
