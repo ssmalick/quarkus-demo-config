@@ -1,0 +1,24 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: create-img-tag
+spec:
+  params:
+    - name: COMMIT
+      type: string
+      description: git commit sha
+  results:
+    - name: image-tag
+      description: image tag. First 7 character of git commit sha
+  steps:
+    - name: create-img-tag
+      image: registry.redhat.io/ubi7/ubi-minimal
+      script: |
+        /bin/bash
+
+        set -x
+
+        COMMIT=$(params.COMMIT)
+        TAG=${COMMIT:0:7}
+
+        echo "$TAG" > $(results.image-tag.path)
