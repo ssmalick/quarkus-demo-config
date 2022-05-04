@@ -7,7 +7,7 @@ resources:
 - ../../base
 
 images:
-- digest: sha256:c7118db0121af6eb21777e52e8e0bd52360f39ee5196224500d8ffa9c9764bd8
+- digest: sha256:5f5af64722e5de2a55d353e42a5679e4bd4000f5a42075fd7b0c48f9610d3afe
   name: quarkus-demo
   newName: quay.io/ssm/quarkus-demo
 commonAnnotations:
