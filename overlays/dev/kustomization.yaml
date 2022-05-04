@@ -7,9 +7,9 @@ resources:
 - ../../base
 
 images:
-- digest: sha256:4cd9329c758b71736cad3a63879a3c76e354eff663b5405a5c9826e4494e1055
+- digest: sha256:af82d519397680fd59704a7d8bc43effb82472a05ee30ffad127751532fb035b
   name: quarkus-demo
-  newName: image-registry.openshift-image-registry.svc:5000/dev-quarkus-demo/quarkus-demo
+  newName: quay.io/ssm/quarkus-demo
 commonAnnotations:
   git-commit.sha: e9c469a133027d6f70919c6bd4984d196c26b4bb
   sha: sha25611
