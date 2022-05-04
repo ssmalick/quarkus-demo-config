@@ -6,7 +6,7 @@ kind: Kustomization
 resources:
 - namespace.yaml
 - ../../base
-- ./pipeline
+  #- ./pipeline
 
 images:
 - digest: sha256:5f5af64722e5de2a55d353e42a5679e4bd4000f5a42075fd7b0c48f9610d3afe
