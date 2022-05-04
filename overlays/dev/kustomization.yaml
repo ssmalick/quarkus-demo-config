@@ -5,6 +5,7 @@ kind: Kustomization
 # namespace: dev-quarkus-demo
 resources:
 - namespace.yaml
+- route.yaml
 - ../../base
 - ./pipeline
 
