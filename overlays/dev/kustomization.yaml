@@ -7,7 +7,6 @@ resources:
 - namespace.yaml
 - route.yaml
 - ../../base
-- ./pipeline
 
 images:
 - digest: sha256:ae2ab4deae4ed73635b105d64b2bf706cf9fb30b1ce260dd0da8317ac94e744c
